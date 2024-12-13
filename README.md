@@ -61,3 +61,11 @@ Handles the training loop:
 	•	Defines the optimizer and loss function.
  
 	•	Runs the training epochs, periodically saves checkpoints, and reports training loss.
+
+
+
+
+ This is screenshot of terminal that shows Prediction
+
+ <img width="839" alt="image" src="https://github.com/user-attachments/assets/3de4c0cf-0126-4c99-a6bd-5c8cef384716" />
+
