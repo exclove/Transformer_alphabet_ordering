@@ -4,7 +4,7 @@ Alphabet Sequence Reordering with a Transformer
 
 This repository contains code for training and evaluating a Transformer-based model on a simple task: reordering sequences of alphabets into the correct alphabetical order. Although the problem is relatively straightforward, it serves as a hands-on example of building and using a Transformer in PyTorch.
 
-Overview
+**Overview**
 
 The project demonstrates how to:
 
@@ -20,14 +20,14 @@ The project demonstrates how to:
 
  
 
-File Structure
+**File Structure**
 
 
-global_name_space.py:
+**global_name_space.py:**
 Contains global configurations and hyperparameter definitions, including arguments for model size, number of layers, training epochs, batch size, and other options.
 
 
-data_preparation.py:
+**data_preparation.py:**
 Implements data generation and preprocessing functions:
 
 	•	generate_alphabet_data(): Creates synthetic pairs of sequences and their correctly sorted counterparts.
@@ -37,7 +37,7 @@ Implements data generation and preprocessing functions:
 	•	preprocess_alphabet_data(): Prepares the dataset for training by converting tokens to their corresponding indices and handling padding.
 
  
-main.py:
+**main.py:**
 Defines the Transformer model’s components:
 
 	•	SelfAttention: Implements multi-head self-attention.
@@ -53,7 +53,7 @@ Defines the Transformer model’s components:
 Also includes code to load a saved model checkpoint and perform inference on test inputs.
 
 
-train.py:
+**train.py:**
 Handles the training loop:
 
 	•	Loads the vocabulary and the dataset.
