@@ -69,5 +69,6 @@ Handles the training loop:
 
  This is screenshot of terminal that shows Prediction
 
- <img width="839" alt="image" src="https://github.com/user-attachments/assets/3de4c0cf-0126-4c99-a6bd-5c8cef384716" />
+ <img width="844" alt="image" src="https://github.com/user-attachments/assets/316f2cc2-7f05-42ed-82bd-533804ddb934" />
+
 
