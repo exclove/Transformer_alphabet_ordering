@@ -44,7 +44,9 @@ Defines the Transformer model’s components:
  
 	•	TransformerBlock: A single encoder/decoder block with self-attention and feed-forward layers.
  
-	•	Encoder and Decoder: Stacks multiple TransformerBlocks and handles positional embeddings. Positional embedding is built with nn.Embedding which is trainable, not sin cos embedding which used in "Attention is All you need" Paper
+	•	Encoder and Decoder: Stacks multiple TransformerBlocks and handles positional embeddings. 
+ 		Positional embedding is built with nn.Embedding which is trainable, not sin cos embedding which used in 
+   		"Attention is All you need" Paper
  
 	•	Transformer: Combines the encoder and decoder to form the complete seq2seq model.
  
